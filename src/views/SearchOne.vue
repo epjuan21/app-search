@@ -152,7 +152,7 @@
               </div>
 
               <div class="item-wrapper">
-                <div class="item-value">{{ item.vidaadministracion }}</div>
+                <div class="item-value">{{ item.viaadministracion }}</div>
                 <div class="item-key">Via Administración</div>
               </div>
             </div>
