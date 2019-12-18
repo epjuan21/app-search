@@ -160,7 +160,7 @@
             <div class="box-footer">
               <div class="icon-wrapper">
                 <div class="icon-box-footer">
-                  <i class="fas fa-city color-lightseagreen"></i>
+                  <v-icon color="primary">mdi-factory</v-icon>
                 </div>
               </div>
               <div class="row-space-end">
