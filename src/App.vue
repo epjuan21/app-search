@@ -59,7 +59,8 @@ export default {
       drawer: null,
       items: [
         { title: "Inicio", icon: "mdi-home", route: "/" },
-        { title: "Invima", icon: "mdi-pill", route: "search-one" },
+        { title: "Invima Vigentes", icon: "mdi-pill", route: "search-one" },
+        { title: "Invima Vencidos", icon: "mdi-pill", route: "search-two" },
       ]
     };
   }

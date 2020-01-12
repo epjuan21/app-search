@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="font-weight-light title">Buscador Registros Invima Vigentes</h1>
+          <h1 class="font-weight-light title">Buscador Registros Invima Vencidos</h1>
         </v-col>
       </v-row>
       <v-row>
@@ -211,14 +211,13 @@ export default {
 
     search: _.debounce(function() {
       this.loading = true;
-      this.url = `https://www.datos.gov.co/resource/i7cb-raxc.json?$where=producto like '%25${this.setQueryToUppercase}%25' OR registrosanitario like '%25${this.setQueryToUppercase}%25'`;
+      this.url = `https://www.datos.gov.co/resource/vwwf-4ftk.json?$where=producto like '%25${this.setQueryToUppercase}%25' OR registrosanitario like '%25${this.setQueryToUppercase}%25'`;
       this.$http.get(this.url).then(response => {
         this.items = response.data;
         console.log(this.items);
         this.loading = false;
       });
     }, 500),
-
     clearQuery() {
       this.query = null;
       this.items = [];
