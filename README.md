@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Firebase Hosting
+https://app-search-860c9.firebaseapp.com/search-one
